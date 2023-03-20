@@ -3,8 +3,8 @@
 
 // 🤔 How?
 
-document.querySelector("div").addEventListener("click", (event) => {
-  const theDiv = event.target;
+document.querySelector("div").addEventListener("click", () => {
+  const theDiv = document.querySelector("div");
   if (theDiv.textContent.length === 0) {
     theDiv.textContent = "woot";
   }

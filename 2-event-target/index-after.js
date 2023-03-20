@@ -3,8 +3,12 @@
 
 // 🤔 How?
 
+document.querySelector("div").addEventListener("click", function (event) {
+  roundify(event.target);
+});
+
 document
-  .querySelector("div")
+  .querySelector("p")
   .addEventListener("click", (event) => roundify(event.target));
 
 // If this type of modification was something we would want to
@@ -17,7 +21,3 @@ function roundify(elem) {
   }
   elem.classList.add("special");
 }
-
-document
-  .querySelector("p")
-  .addEventListener("click", (event) => roundify(event.target));
