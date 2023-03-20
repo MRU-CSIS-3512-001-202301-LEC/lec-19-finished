@@ -1,0 +1,38 @@
+#outer, #next-to {
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#outer {
+    background-color: #bada55;
+    
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#inner {
+    background-color: blue;
+    color: rgb(219, 209, 209);
+    width: 50%;
+    height: 50%;
+    font-size: 0.8em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+span {
+    padding: 10px;
+    background-color: white;
+    border-radius: 20px;
+    color: red;
+}
+
+#next-to {
+    background-color: aliceblue;
+    height: 100px;
+}

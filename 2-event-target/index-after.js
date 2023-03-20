@@ -15,11 +15,7 @@ function roundify(elem) {
   if (elem.textContent.length === 0) {
     elem.textContent = "woot";
   }
-  elem.style.fontSize = "4em";
-  elem.style.textAlign = "center";
-  elem.style.border = "15px solid blue";
-  elem.style.borderRadius = "30px";
-  elem.style.backgroundColor = "#bada55";
+  elem.classList.add("special");
 }
 
 document

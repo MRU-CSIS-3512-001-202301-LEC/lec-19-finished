@@ -3,9 +3,11 @@
 const H1 = document.querySelector("h1");
 
 console.log(H1); // 🤔 What shows in the console? Why?
+H1.style.fontSize = "4em";
 
 // 🤔 How do we fix this, traditionally? (2 common ways)
 // 🤔 Why don't we need to do this when using type="module"?
 
+// USEFUL TIP
 // Say we had a number of DOM elements that get used a lot.
 // 🤔 What could we do to make them available to every file that needed them?

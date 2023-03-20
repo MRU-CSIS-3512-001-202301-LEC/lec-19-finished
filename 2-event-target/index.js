@@ -8,11 +8,7 @@ document.querySelector("div").addEventListener("click", (event) => {
   if (theDiv.textContent.length === 0) {
     theDiv.textContent = "woot";
   }
-  theDiv.style.fontSize = "4em";
-  theDiv.style.textAlign = "center";
-  theDiv.style.border = "15px solid blue";
-  theDiv.style.borderRadius = "30px";
-  theDiv.style.backgroundColor = "#bada55";
+  theDiv.classList.add("special");
 });
 
 // If this type of modification was something we would want to
