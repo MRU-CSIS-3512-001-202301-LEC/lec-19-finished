@@ -1,17 +1,7 @@
-const SPAN = document.querySelector("span");
-
-SPAN.addEventListener("click", (e) => {
-  console.log(e.target);
-});
+document
+  .querySelector("form")
+  .addEventListener("submit", (event) => event.preventDefault());
 
 document
-  .querySelector("#outer")
-  .addEventListener("click", (e) => console.log(e.target));
-
-document
-  .querySelector("#nextTo")
-  .addEventListener("click", (e) => console.log(e.target));
-
-document.querySelector("body").addEventListener("click", (e) => {
-  console.log("body: ", e.target);
-});
+  .querySelector("input#name")
+  .addEventListener("keypress", (event) => event.preventDefault());
